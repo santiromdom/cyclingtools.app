@@ -606,6 +606,17 @@ section h2 {
         grid-template-columns: 1fr;
     }
 
+    .feature-banners {
+        gap: 3rem;
+    }
+
+    .banner-item,
+    .banner-item:nth-child(even) {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
     .legal-content {
         padding: 1.5rem;
     }
