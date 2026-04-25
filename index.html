@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cycling Tools Hub - Calculadora de desarrollos, plantillas de rutas, seguimiento de peso y nivelación de sillín para ciclistas.">
+    <title>Cycling Tools Hub - Gear Calculator, Routes & Bike Fit</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/ic_launcher_v2_playstore.png">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home" class="logo">
+                    <img src="img/ic_launcher_v2_playstore.png" alt="Cycling Tools Hub Logo">
+                    Cycling Tools Hub
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#features">Características</a></li>
+                <li><a href="#download">Descargar</a></li>
+                <li><a href="#social">Síguenos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Cycling Tools Hub</h1>
+                <p class="hero-subtitle">Gear Calculator, organiza tus salidas grupales y ajusta tu bicicleta</p>
+                <p class="hero-description">Lleva tu pasión por el ciclismo al siguiente nivel. Ya seas ciclista de carretera, montaña o gravel, nuestra suite de herramientas te ayudará a mejorar cada detalle de tu experiencia sobre dos ruedas.</p>
+                <p class="hero-description">Diseñada por y para ciclistas que buscan precisión en la configuración de la bicicleta y un control total sobre su rendimiento.</p>
+                <a href="#download" class="btn btn-primary">Descargar Ahora</a>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <img src="img/ic_launcher_v2_playstore.png" alt="Cycling Tools Hub App" style="max-width: 200px; opacity: 0.8;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS PRINCIPALES -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Características Principales</h2>
+            <p class="section-intro">Precisión matemática y herramientas intuitivas para convertir tu smartphone en el taller definitivo.</p>
+            
+            <div class="feature-banners">
+                <!-- Plantillas de Rutas -->
+                <div class="banner-item">
+                    <div class="banner-image">
+                        <img src="img/BannerEspanol.png" alt="Plantillas de Rutas">
+                    </div>
+                    <div class="banner-text">
+                        <h3>🗺️ Plantillas de Rutas</h3>
+                        <p>Organiza tus salidas grupales o sesiones de entrenamiento de forma profesional. Guarda todos los detalles: punto de inicio, desnivel positivo, distancia y track GPS. Comparte la información directamente por WhatsApp para que todo el grupo esté sincronizado.</p>
+                    </div>
+                </div>
+
+                <!-- Gear Calculator -->
+                <div class="banner-item">
+                    <div class="banner-image">
+                        <img src="img/BannerEspanol_gear.png" alt="Gear Calculator">
+                    </div>
+                    <div class="banner-text">
+                        <h3>⚙️ Advanced Gear Calculator</h3>
+                        <p>Calcula la velocidad (km/h o mph) y la potencia estimada (vatios) necesaria en función de tu cadencia, tamaño de rueda y gradiente del terreno. Ideal para planificar tus cambios de desarrollo antes de una gran ruta.</p>
+                    </div>
+                </div>
+
+                <!-- Control de Peso -->
+                <div class="banner-item">
+                    <div class="banner-image">
+                        <img src="img/BannerEspanol_peso.png" alt="Control de Peso">
+                    </div>
+                    <div class="banner-text">
+                        <h3>⚖️ Detailed Weight Tracking</h3>
+                        <p>Realiza un seguimiento del peso de cada componente de tu bicicleta, desde el cuadro hasta el último tornillo. Organiza tus componentes por categorías y visualiza el peso total para optimizar tu rendimiento al máximo.</p>
+                    </div>
+                </div>
+
+                <!-- Nivel de Sillín -->
+                <div class="banner-item">
+                    <div class="banner-image">
+                        <img src="img/BannerEspanol_nivel.png" alt="Nivel de Sillín">
+                    </div>
+                    <div class="banner-text">
+                        <h3>📏 Precise Saddle Leveling</h3>
+                        <p>Utiliza el sensor de inclinación de tu dispositivo para ajustar el ángulo de tu sillín con precisión total. Un nivel de burbuja profesional te indicará los grados exactos para evitar molestias y mejorar tu biomecánica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL PARA IMÁGENES -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- DESCARGA SECCIÓN -->
+    <section class="download" id="download">
+        <div class="container">
+            <h2>Descargar Cycling Tools Hub</h2>
+            <p class="section-intro">Disponible en Google Play Store para Android</p>
+            
+            <div class="download-buttons">
+                <a href="https://play.google.com/store/apps/details?id=com.cyclingtools.app" class="btn btn-primary btn-large" target="_blank">
+                    📱 Descargar en Google Play
+                </a>
+            </div>
+            
+            <p class="system-info">Requiere Android 6.0 o superior</p>
+        </div>
+    </section>
+
+    <!-- REDES SOCIALES SECCIÓN -->
+    <section class="social" id="social">
+        <div class="container">
+            <h2>Síguenos</h2>
+            <p class="section-intro">Únete a nuestra comunidad de ciclistas</p>
+            
+            <div class="social-links">
+                <a href="https://www.youtube.com/@CyclingTools" class="social-btn" target="_blank" rel="noopener noreferrer">
+                    <span>📺</span> YouTube
+                </a>
+                <a href="https://www.tiktok.com/@cyclingtools_app" class="social-btn" target="_blank" rel="noopener noreferrer">
+                    <span>🎵</span> TikTok
+                </a>
+                <a href="https://www.instagram.com/cyclingtools_app" class="social-btn" target="_blank" rel="noopener noreferrer">
+                    <span>📷</span> Instagram
+                </a>
+                <a href="https://twitter.com/cyclingtools" class="social-btn" target="_blank" rel="noopener noreferrer">
+                    <span>𝕏</span> Twitter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cycling Tools Hub</h3>
+                    <p>La herramienta definitiva para ciclistas</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#download">Descargar</a></li>
+                        <li><a href="#social">Síguenos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                        <li><a href="politica-de-privacidad.html">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: info@cyclingtools.app</p>
+                    <p>© 2026 Cycling Tools Hub. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
